@@ -1,0 +1,6 @@
+{
+    "T1": {"timeRequired": 3, "dependencies": []},
+    "T2": {"timeRequired": 2, "dependencies": ["T1"]},
+    "T3": {"timeRequired": 4, "dependencies": ["T1"]},
+    "T4": {"timeRequired": 1, "dependencies": ["T2", "T3"]}
+}
